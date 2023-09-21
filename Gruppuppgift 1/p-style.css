@@ -1,0 +1,152 @@
+form {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.row:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.col-about {
+
+  float: left;
+  width: 100%;
+  margin-top: 6px;
+}
+
+textarea {
+  width: 200px;
+  height: 100px;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=text],
+input[type=number],
+input[type=email],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+
+
+button:hover {
+  background-color: #3e623b;
+  box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.241);
+}
+
+
+.button {
+  background-color: #4a9f46;
+  padding:15px 32px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  border: none;
+  width: 40%;
+  margin-left: 30%;
+  margin-top:10px;
+  border-radius: 10px;
+}
+
+.row img {
+  width: 100%;
+  color: grey;
+}
+
+.row img:hover {
+  background-color: rgba(187, 187, 187, 0.442);
+
+}
+
+.profilepic {
+  display: flex;
+  justify-content: left;
+}
+
+select:required:invalid {
+  color: #888686;
+}
+
+input::placeholder {
+  color: #888686;
+}
+
+textarea::placeholder {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+h2 {
+  font-family: raleway;
+}
+
+.rubrik {
+  text-align: center;
+  width: 100%;
+  margin: 1rem;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  border: 1px black solid;
+  flex-wrap: wrap;
+  margin: 80px 10px 150px 10px;
+}
+
+h1, a {
+  font-family: raleway;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 1200px) {
+
+  html, body {
+    min-height: 100%;
+  }
+
+  .container {
+    margin-bottom: 200px;
+    margin: 100px 10px 150px 10px;
+  }
+
+  .form-rubrik {
+    float: left;
+    width: 33%;
+    margin-top: 6px;
+  }
+
+  .form-input {
+    float: left;
+    width: 60%;
+    margin-top: 6px;
+  }
+
+  .col-about {
+
+    float: left;
+    width: 60%;
+    margin-top: 6px;
+  }
+}

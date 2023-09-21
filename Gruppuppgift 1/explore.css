@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Raleway:wght@300;400;700&display=swap');
+
+
+section>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+
+ .exploreImages-1{ 
+display: grid;
+grid-template-areas: 'c b t'
+'s m t'; 
+gap: 5px;
+
+
+
+} 
+
+#postImage-1{
+    grid-area: c;
+}
+#postImage-2{
+    grid-area: b ;
+}
+#postImage-3{
+    grid-area: t;
+}
+#postImage-4{
+    grid-area: s;
+}
+#postImage-5{
+    grid-area: m;
+}
+
+
+
+
+.exploreImages-2{margin-top: 5px;
+    display: grid;
+    grid-template-areas: 'g n l'
+    'g b s';
+grid-template-rows:repeat(2 ,1fr) ;
+gap: 5px;
+
+
+}
+          
+#postImage-6{
+grid-area:g ;
+}
+#postImage-7{
+grid-area: n;
+}
+#postImage-8{grid-area:l ;
+
+}
+#postImage-9{
+grid-area:b ;
+}
+#postImage-10{grid-area:s ;
+
+}
+
+
+       .exploreImages-3{margin-top: 5px;
+        display: grid;
+        grid-template-areas: 'r t c'
+        's w c';
+        gap: 5px;
+       
+       
+       }
+#postImage-11{
+grid-area: r;
+}
+#postImage-12{grid-area:t ;
+
+}
+#postImage-13{grid-area: c;
+
+}
+#postImage-14{
+    grid-area: s;
+}
+#postImage-15{grid-area:w ;
+
+}
+.container{
+    height: 100vh;
+}
+.img-container{
+   
+  margin-top: 30px;
+  height: 100%; 
+display: grid;
+}
+@media only screen and (min-width: 1200px){
+
+    .container{
+          margin-left: 10%;
+        
+      }
+     }
+
+@media only screen and (max-width: 1200px){
+
+    .img-container{
+        padding-bottom: 3rem;
+        padding-top: 2rem;
+    }
+}
